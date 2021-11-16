@@ -34,12 +34,3 @@ public class tempestDemo {
         }
     }
 }
-
-//   Stream<String> inputStream = Stream.of(singleString.split(" "));
-//   Map<String, Long> wordMap = inputStream.collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
-//   wordMap.entrySet().forEach(entrySet -> System.out.println(entrySet.getKey() + "(" + entrySet.getValue() +")"));
-// System.out.println(singleString);
-           /* Stream.of(singleString.split(" "))
-                    .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
-                    .entrySet()
-                    .forEach(entrySet -> System.out.println(entrySet.getKey() + "(" + entrySet.getValue() + ")"));*/
